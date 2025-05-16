@@ -1,0 +1,47 @@
+/* 여백 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 배경,텍스트 색상 */
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fffafa;
+    background-color: #585858;
+}
+
+/* 공통 유틸리티 클래스 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* 링크 기본 스타일 */
+a {
+    color: #fffafa;
+    text-decoration: none;
+}
+
+/* 버튼 기본 스타일 */
+button {
+    border: none;
+    background-color: #DAA520;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* 목록 기본 스타일 */
+li {
+    list-style-type: none;
+}

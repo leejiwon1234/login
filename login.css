@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+}
+
+main {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    background-color: #DAA520;
+    border-radius: 5px;
+    padding: 20px 200px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#naver {
+ padding: 20px 220px;
+ margin-bottom: 1px;
+}
+
+
+.check {
+  font-size: 14px;
+}
+
